@@ -34,3 +34,8 @@ void ListaEnlazada::print()
 
 };
 
+ListaEnlazada* ListaEnlazada::numeroEntero()
+{
+	return (new ListaEnlazada());
+};
+

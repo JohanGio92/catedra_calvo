@@ -2,7 +2,7 @@
 
 int main()
 {
-	ListaEnlazada *lista = new ListaEnlazada();
+	ListaEnlazada *lista = ListaEnlazada::numeroEntero();
 	lista->push(5);
 	lista->push(6);
 	lista->print();

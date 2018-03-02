@@ -14,6 +14,7 @@ public:
 	ListaEnlazada();
 	void push(Dato dato);
 	void print();
+	static ListaEnlazada* numeroEntero();
 };
 
 #endif /* LISTA_ENLAZADAS_LISTAENLAZADA_H_ */
